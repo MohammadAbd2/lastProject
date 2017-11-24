@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fcfdff;
+}
+nav {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 30px;
+  padding: 5px;
+  line-height: 50px;
+
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b5bdc8+0,828c95+36,28343b+100;Grey+Black+3D */
+background: rgb(181,189,200); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(181,189,200,1) 0%, rgba(130,140,149,1) 36%, rgba(40,52,59,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=0 ); /* IE6-9 */
+}
+.logo {
+  width: 20%;
+  height: 111px;
+  margin: 0 auto;
+  background-image: url("../img/logo.png");
+  background-size: cover;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.container {
+  border-radius: 3px;
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+  padding: 10px;
+  text-align: center;
+
+}
+
+.searchBox {
+  width: 50%;
+  height: 30px;
+  margin: 0 auto;
+  color: #fff;
+}
+.searchBox>.btn {
+  width: 10%;
+  border-radius: 0 3px 3px 0;
+}
+.form-control {
+  width: 90%;
+  float: left;
+  color: #ddd !important;
+  border-radius: 3px 0 0 3px;
+  background: rgb(125,126,125);
+  background: -moz-linear-gradient(top, rgba(125,126,125,1) 0%, rgba(14,14,14,1) 100%);
+  background: -webkit-linear-gradient(top, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%);
+  background: linear-gradient(to bottom, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 );
+}
