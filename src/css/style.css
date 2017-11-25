@@ -50,6 +50,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', end
   height: 30px;
   margin: 0 auto;
   color: #fff;
+  margin-bottom: 15px;
 }
 .searchBox>.btn {
   width: 10%;
@@ -112,4 +113,51 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', end
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   cursor: pointer;
+}
+
+.menuBar {
+  width: 100%;
+  height: 60px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  line-height: 40px;
+  
+}
+.menuBar>ul {
+  width: 100%;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+
+}
+.menuBar>ul>li {
+  display: inline-block;
+  list-style: none;
+  height: 60px;
+  font-size: 20px;
+  color: rgb(100, 100, 100);
+  padding: 10px;
+  width: 15%; 
+  cursor: pointer;
+}
+.menuBar>ul>li:last-child {
+  background-color: rgb(65, 130, 206);
+  border-radius: 5px;
+  color: #fff;
+}
+.cartCount {
+  position: absolute;
+  right: 310px;
+  top: 275px;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(107, 204, 241);
+  color: red;
+  border-radius: 15px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 16px;
+
 }
