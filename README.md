@@ -1,3 +1,4 @@
 # lastProject
 
-1- We have to create HOME page.
+<p>Out project progress:</p>
+<input type='checkbox'>Home page</input>
