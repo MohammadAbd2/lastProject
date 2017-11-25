@@ -1,5 +1,4 @@
 # lastProject
-<!doctype html>
 <html>
     <body>
         <p>Out project progress:</p>
