@@ -1,7 +1,7 @@
 # lastProject
 What we have to do?
 
-- [X] Home page. (Progressing)
+- [X] Home page.
 - [ ] Login page.
 - [ ] Register page.
 - [ ] Products page.
