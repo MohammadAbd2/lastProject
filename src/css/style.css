@@ -186,6 +186,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', end
 .footer {
   width: 100%;
   height: 300px;
-  background-color: #ddd;
-  box-shadow: inset 0px 0px 20px 10px rgba(0,0,0,0.6);
+  background-color: rgb(92, 92, 92);
+  box-shadow: inset 0px 0px 20px 10px rgba(54, 54, 54, 0.6);
 }
