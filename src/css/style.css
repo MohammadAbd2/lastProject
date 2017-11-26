@@ -141,6 +141,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', end
   padding: 10px;
   width: 15%; 
   cursor: pointer;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.menuBar>ul>li:hover {
+  background-color: #ddd;
 }
 .menuBar>ul>li:last-child {
   background-color: rgb(65, 130, 206);
