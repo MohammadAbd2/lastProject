@@ -7,3 +7,4 @@ What we have to do?
 - [ ] Products page.
 - [ ] Product details.
 - [ ] Cart page.
+- [ ] 404 page.
